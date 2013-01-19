@@ -1,18 +1,24 @@
-1358631639
+1358636327
 About page	C:/Sites/Moodlycollege/spec/requests/static_pages_spec.rb	describe "About page" do
 Application	C:/Sites/Moodlycollege/config/application.rb	  class Application 
 ApplicationController	C:/Sites/Moodlycollege/app/controllers/application_controller.rb	class ApplicationController 
 ApplicationHelper	C:/Sites/Moodlycollege/app/helpers/application_helper.rb	module ApplicationHelper
+Contact page	C:/Sites/Moodlycollege/spec/requests/static_pages_spec.rb	describe "Contact page" do
 Help page	C:/Sites/Moodlycollege/spec/requests/static_pages_spec.rb	describe "Help page" do
 Home page	C:/Sites/Moodlycollege/spec/requests/static_pages_spec.rb	describe "Home page" do
 Moodlycollege	C:/Sites/Moodlycollege/config/application.rb	module Moodlycollege
 Static pages	C:/Sites/Moodlycollege/spec/requests/static_pages_spec.rb	describe "Static pages" do
 StaticPagesController	C:/Sites/Moodlycollege/app/controllers/static_pages_controller.rb	class StaticPagesController 
 StaticPagesHelper	C:/Sites/Moodlycollege/app/helpers/static_pages_helper.rb	module StaticPagesHelper
+about	C:/Sites/Moodlycollege/app/controllers/static_pages_controller.rb	  def about 
+contact	C:/Sites/Moodlycollege/app/controllers/static_pages_controller.rb	  def contact
 help	C:/Sites/Moodlycollege/app/controllers/static_pages_controller.rb	  def help
+home	C:/Sites/Moodlycollege/app/controllers/static_pages_controller.rb	  def home
 should have the h1 'About Us'	C:/Sites/Moodlycollege/spec/requests/static_pages_spec.rb	it "should have the h1 'About Us'" do
+should have the h1 'Contact'	C:/Sites/Moodlycollege/spec/requests/static_pages_spec.rb	it "should have the h1 'Contact'" do
 should have the h1 'Help'	C:/Sites/Moodlycollege/spec/requests/static_pages_spec.rb	it "should have the h1 'Help'" do
 should have the h1 'Moodly'	C:/Sites/Moodlycollege/spec/requests/static_pages_spec.rb	it "should have the h1 'Moodly'" do
 should have the title 'About Us'	C:/Sites/Moodlycollege/spec/requests/static_pages_spec.rb	it "should have the title 'About Us'" do
+should have the title 'Contact'	C:/Sites/Moodlycollege/spec/requests/static_pages_spec.rb	it "should have the title 'Contact'" do
 should have the title 'Help'	C:/Sites/Moodlycollege/spec/requests/static_pages_spec.rb	it "should have the title 'Help'" do
 should have the title 'Home'	C:/Sites/Moodlycollege/spec/requests/static_pages_spec.rb	it "should have the title 'Home'" do
