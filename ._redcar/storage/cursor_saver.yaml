@@ -1,4 +1,23 @@
 --- 
-cursor_positions: []
-
+cursor_positions: 
+  - :path: spec/requests/static_pages_spec.rb
+    :cursor_offset: 1128
+    :timestamp: 2013-01-19 14:55:32.541000 -06:00
+    :selection_offset: 0
+    :block_selection_mode: false
+  - :path: spec/spec_helper.rb
+    :cursor_offset: 0
+    :timestamp: 2013-01-19 13:12:10.596000 -06:00
+  - :path: app/views/layouts/application.html.erb
+    :cursor_offset: 293
+    :timestamp: 2013-01-19 15:17:11.436000 -06:00
+  - :path: app/views/static_pages/about.html.erb
+    :cursor_offset: 0
+    :timestamp: 2013-01-19 15:17:59.452000 -06:00
+  - :path: app/views/static_pages/help.html.erb
+    :cursor_offset: 79
+    :timestamp: 2013-01-19 15:17:50.443000 -06:00
+  - :path: config/routes.rb
+    :cursor_offset: 119
+    :timestamp: 2013-01-19 15:20:59.922000 -06:00
 files_to_retain: 0
