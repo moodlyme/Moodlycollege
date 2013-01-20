@@ -1,4 +1,4 @@
-1358636327
+1358703085
 About page	C:/Sites/Moodlycollege/spec/requests/static_pages_spec.rb	describe "About page" do
 Application	C:/Sites/Moodlycollege/config/application.rb	  class Application 
 ApplicationController	C:/Sites/Moodlycollege/app/controllers/application_controller.rb	class ApplicationController 
@@ -12,6 +12,7 @@ StaticPagesController	C:/Sites/Moodlycollege/app/controllers/static_pages_contro
 StaticPagesHelper	C:/Sites/Moodlycollege/app/helpers/static_pages_helper.rb	module StaticPagesHelper
 about	C:/Sites/Moodlycollege/app/controllers/static_pages_controller.rb	  def about 
 contact	C:/Sites/Moodlycollege/app/controllers/static_pages_controller.rb	  def contact
+full_title	C:/Sites/Moodlycollege/app/helpers/application_helper.rb	  def full_title(page_title)
 help	C:/Sites/Moodlycollege/app/controllers/static_pages_controller.rb	  def help
 home	C:/Sites/Moodlycollege/app/controllers/static_pages_controller.rb	  def home
 should have the h1 'About Us'	C:/Sites/Moodlycollege/spec/requests/static_pages_spec.rb	it "should have the h1 'About Us'" do
